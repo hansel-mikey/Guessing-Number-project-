@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-again {
+  margin-right: 90rem;
+  height: 80px;
+  width: 150px;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.range {
+  font-size: larger;
+
+  font-weight: 100;
+}
+.box-display-number {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.box-color {
+  background: #eee;
+  color: #333;
+  height: 200px;
+  width: 200px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-box {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.input-box-display {
+  margin-right: 800px;
+  margin-left: 100px;
+}
+.input-style {
+  height: 150px;
+  width: 200px;
+  margin: 10px;
+  font-size: 70px;
+  font-family: 'Press Start 2P', sans-serif;
+  text-align: center;
+}
+
+.message {
+  margin-top: 5px;
+}
+.check-button {
+  background-color: #eee;
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  margin-left: 170px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  font-family: 'Press Start 2P', sans-serif;
+}
+.check-button:hover {
+  animation-name: box-size;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+@keyframes box-size {
+  from {
+    height: 50px;
+    width: 90px;
+  }
+  to {
+    height: 55px;
+    width: 95px;
+  }
+}
+.container-p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: -20px;
+  padding: 0;
+}
+.message {
+  font-size: 30px;
+}
+
+.message,
+.score,
+.HighScore {
+  margin-left: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
